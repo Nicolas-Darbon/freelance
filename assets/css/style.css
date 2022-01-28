@@ -39,7 +39,7 @@ body {
 
 /*------------------------------------------------------------------*/
 /*   IE10 in Windows 8 and Windows Phone 8 Bug fix
-/*-----------------------------------------------------------------*/
+   /*-----------------------------------------------------------------*/
 
 @-webkit-viewport {
   width: device-width;
@@ -58,22 +58,22 @@ body {
 }
 
 /*
-    Page Content
-------------------------------------------*/
+       Page Content
+   ------------------------------------------*/
 /*
-.page-content, 
-section { overflow: hidden; }*/
+   .page-content, 
+   section { overflow: hidden; }*/
 
 /*
-    On Scroll Animations 
-------------------------------------------*/
+       On Scroll Animations 
+   ------------------------------------------*/
 
 /*.animated { visibility: hidden; }
-.visible { visibility: visible; }*/
+   .visible { visibility: visible; }*/
 
 /*
-    Spacing & Alignment 
-------------------------------------------*/
+       Spacing & Alignment 
+   ------------------------------------------*/
 
 .roomy-100 {
   padding-top: 100px;
@@ -103,6 +103,11 @@ section { overflow: hidden; }*/
 .roomy-40 {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.roomy-000 {
+  padding-top: 100px;
+  padding-bottom: 0px;
 }
 
 /*text color*/
@@ -206,7 +211,6 @@ p {
 
 img {
   max-width: 100%;
-  height: 50px;
 }
 textarea,
 input[type="text"],
@@ -337,8 +341,8 @@ p:last-child {
 }
 
 /*
-Section
-*/
+   Section
+   */
 
 .parallax-section {
   max-width: 100%;
@@ -379,8 +383,8 @@ ul {
 }
 
 /*
-Separator
-*/
+   Separator
+   */
 .separator_left {
   width: 85px;
   height: 2px;
@@ -401,8 +405,8 @@ Separator
 }
 
 /*
-Button
-*/
+   Button
+   */
 .btn {
   -webkit-transition: all 0.6s;
   transition: all 0.6s;
@@ -456,17 +460,17 @@ Button
 }
 
 /*
-socail icon
---------------------------------*/
+   socail icon
+   --------------------------------*/
 /*a i.share{
-    color:#1E8BC3;
-    -webkit-transition: all .6s;
-    transition: all .6s;
-}*/
+       color:#1E8BC3;
+       -webkit-transition: all .6s;
+       transition: all .6s;
+   }*/
 
 /*
-Extra height css
-*/
+   Extra height css
+   */
 .m-0 {
   margin: 0 !important;
 }
@@ -657,11 +661,16 @@ p-0 {
 .p-top-110 {
   padding-top: 110px;
 }
+.p-top-25 {
+  padding-top: 25px;
+}
 
 .p-bottom-110 {
   padding-bottom: 110px;
 }
-
+.p-bottom-15 {
+  padding-bottom: 15px;
+}
 .p-bottom-0 {
   padding-bottom: 0;
 }
@@ -749,15 +758,15 @@ textarea::-ms-input-placeholder {
 
 /*for image bg*/
 /*.img-bg{
-  background: url(../images/home-msg.jpg) no-repeat center top fixed;
-  background-size
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  overflow: hidden;
-}*/
+     background: url(../images/home-msg.jpg) no-repeat center top fixed;
+     background-size
+     -moz-background-size: cover;
+     -webkit-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     width: 100%;
+     overflow: hidden;
+   }*/
 
 .transform_scal_rotate:hover img {
   -webkit-transform: scale(1.1) rotate(4deg);
@@ -1013,8 +1022,8 @@ textarea::-ms-input-placeholder {
 /*End off Preloader*/
 
 /*
-Nav Menu style
-==================*/
+   Nav Menu style
+   ==================*/
 
 .cart-list li h6 a {
   color: #000;
@@ -1032,8 +1041,8 @@ Nav Menu style
 }
 
 /*
-Home Section style
-==================*/
+   Home Section style
+   ==================*/
 .home {
   background: url(../images/background/header.jpg) no-repeat bottom center;
   background-size: cover;
@@ -1054,8 +1063,8 @@ Home Section style
 }
 
 /*
-About section style
-====================*/
+   About section style
+   ====================*/
 .main_about {
   display: table;
   width: 100%;
@@ -1088,8 +1097,8 @@ About section style
 }
 
 /*
-FAQ Page
---------*/
+   FAQ Page
+   --------*/
 
 .faq_main_content h6 {
   margin-bottom: 0rem;
@@ -1111,7 +1120,7 @@ FAQ Page
 }
 
 .faq_main_content h6 + div.open {
-  height: 133px;
+  height: 66px;
   border: 1px solid;
   border-top: 0;
   border-color: #eee;
@@ -1160,8 +1169,8 @@ FAQ Page
 }
 
 /*
-Video Section style
-======================*/
+   Video Section style
+   ======================*/
 .video {
   background: url(../images/background/video.jpg) no-repeat center center;
   background-size: cover;
@@ -1186,8 +1195,8 @@ Video Section style
 }
 
 /*
-Featured section style
-========================*/
+   Featured section style
+   ========================*/
 .main_featured .head_title {
   width: 70%;
   margin: 0 auto;
@@ -1249,8 +1258,8 @@ Featured section style
 }
 
 /*
-service section style
-========================*/
+   service section style
+   ========================*/
 .main_featured,
 .main_service {
   display: table;
@@ -1273,8 +1282,8 @@ service section style
 }
 
 /*
-Impress section style
-========================*/
+   Impress section style
+   ========================*/
 
 .impress {
   background: url(../images/background/work-together.jpg) no-repeat center
@@ -1290,8 +1299,8 @@ Impress section style
 }
 
 /*
-Portfolio section style
-========================*/
+   Portfolio section style
+   ========================*/
 
 .main_portfolio {
   width: 100%;
@@ -1339,8 +1348,8 @@ Portfolio section style
   padding-top: 25%;
 }
 /*.portfolio_item3 .portfolio_hover{ 
-    padding-top: 65%;
-}*/
+       padding-top: 65%;
+   }*/
 
 .home_btns,
 .impress_btns,
@@ -1367,8 +1376,8 @@ Portfolio section style
 }
 
 /*
-Skill Section style
-=======================*/
+   Skill Section style
+   =======================*/
 
 /* Skill bar*/
 
@@ -1405,8 +1414,8 @@ Skill Section style
 }
 
 /*
-Testimonial Section style
-=======================*/
+   Testimonial Section style
+   =======================*/
 .testimonial {
   background: url(../images/background/testimonial.jpg) no-repeat center center;
   background-size: cover;
@@ -1451,8 +1460,8 @@ Testimonial Section style
 }
 
 /*
-Pricing Section style
-=======================*/
+   Pricing Section style
+   =======================*/
 .main_blog,
 .main_pricing {
   overflow: hidden;
@@ -1475,13 +1484,13 @@ Pricing Section style
   background-color: #ff6863;
   padding: 10px;
   border-radius: 50%;
-  margin: 0 auto;
+  margin: 15px auto;
   width: 150px;
   height: 150px;
-  position: absolute;
-  top: 18.6%;
-  left: 25%;
-  right: 25%;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .pricing_price_border .pricing_price {
   background-color: #ff6863;
@@ -1490,7 +1499,7 @@ Pricing Section style
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  padding-top: 23%;
+  padding-top: 10%;
 }
 .pricing_price_border .pricing_price h3 {
   margin-bottom: 5px;
@@ -1505,19 +1514,19 @@ Pricing Section style
   overflow: hidden;
 }
 .pricing_body ul {
-  width: 55%;
+  width: 75%;
   margin: 0 auto;
 }
 .pricing_body ul li {
-  line-height: 3rem;
+  line-height: 1.8rem;
 }
 .pricing_body ul li i {
   margin-right: 10px;
 }
 
 /*
-Brand Section style
-=====================*/
+   Brand Section style
+   =====================*/
 .main_cbrand {
   overflow: hidden;
   width: 100%;
@@ -1536,8 +1545,8 @@ Brand Section style
 }
 
 /*
-Subscribe Section style
-=====================*/
+   Subscribe Section style
+   =====================*/
 .subscribe {
   background: url(../images/background/subscribe.jpg) no-repeat center center;
   background-size: cover;
@@ -1561,8 +1570,8 @@ Subscribe Section style
 }
 
 /*
-Blog Section style
-=====================*/
+   Blog Section style
+   =====================*/
 .blog_item {
   overflow: hidden;
   width: 100%;
@@ -1594,8 +1603,8 @@ Blog Section style
 }
 
 /*
-Maps Section style
-=====================*/
+   Maps Section style
+   =====================*/
 
 .main_maps {
   background: url(../images/maps.jpg) no-repeat center center;
@@ -1627,8 +1636,8 @@ Maps Section style
 }
 
 /*
-Contact Section style
-=====================*/
+   Contact Section style
+   =====================*/
 
 .main_contact {
   overflow: hidden;
@@ -1658,8 +1667,8 @@ Contact Section style
 }
 
 /*
-Footer Section style
-=====================*/
+   Footer Section style
+   =====================*/
 
 .main_footer {
   overflow: hidden;
