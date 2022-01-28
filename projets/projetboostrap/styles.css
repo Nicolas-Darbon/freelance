@@ -1,0 +1,144 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand img {
+  max-height: 50px;
+  margin-right: 10px;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+header {
+  background-image: url(./img/bgheader.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 70vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+header .row {
+  align-items: center;
+}
+header .formReservation {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+header h1 {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+header h2 {
+  font-family: "MonteCarlo", cursive;
+  color: white;
+  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+}
+header .slogan {
+  display: flex;
+  min-height: 70vh;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+@media (max-width: 768px) {
+  header .slogan {
+    display: none;
+  }
+}
+.container h2 {
+  margin-bottom: 30px;
+}
+#presentation .media span {
+  font-size: 3rem;
+  color: Dodgerblue;
+  text-align: center;
+  width: 2rem;
+  margin-right: 30px;
+}
+#presentation .media {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin: 5px;
+}
+#presentation .media:hover {
+  background-color: #0dcaf0;
+  border-radius: 10px;
+}
+#presentation .media:hover h5,
+#presentation .media:hover p,
+#presentation .media:hover .fa,
+#presentation .media:hover .fas {
+  color: white;
+}
+.fa,
+.fas {
+  color: #0dcaf0;
+}
+.avisClient .fa,
+.avisClient .fas {
+  color: white;
+}
+.avisClient {
+  min-height: calc(100vh - 50px);
+  background-color: #0dcaf0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.avisClient h5 {
+  font-size: 2rem;
+  margin: 5px 0;
+}
+.avisClient span {
+  font-size: 5rem;
+}
+.fondAvis {
+  background-image: url(./img/bgavis.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: calc(100vh - 50px);
+}
+#contact {
+  background-image: url(./img/bgcontact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: calc(100vh - 50px);
+}
+#contact .row {
+  min-height: calc(100vh - 50px);
+}
+.formulaireContact {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2rem 1rem;
+}
+#contact textarea {
+  resize: none;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #999;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+footer a {
+  color: #999;
+  font-size: 2rem;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
