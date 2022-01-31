@@ -1384,7 +1384,7 @@ textarea::-ms-input-placeholder {
 .teamskillbar {
   position: relative;
   display: block;
-  margin-bottom: 55px;
+  margin-bottom: 15px;
   width: 100%;
   background: #f2f2f2;
   height: 10px;
@@ -1395,7 +1395,7 @@ textarea::-ms-input-placeholder {
 }
 .teamskillbar h6 {
   position: absolute;
-  top: -25px;
+  top: -35px;
   left: 0;
 }
 .teamskillbar-bar {
