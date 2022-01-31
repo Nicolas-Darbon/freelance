@@ -1395,7 +1395,7 @@ textarea::-ms-input-placeholder {
 }
 .teamskillbar h6 {
   position: absolute;
-  top: -35px;
+  top: -25px;
   left: 0;
 }
 .teamskillbar-bar {
